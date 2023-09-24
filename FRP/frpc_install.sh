@@ -60,3 +60,7 @@ echo "Systemd service installed"
 echo "Install complete."
 echo "Use 'systemctl start frpc' or 'systemctl enable frpc' to start frpc service."
 rm -rf /tmp/frp_0.51.3_linux_amd64*
+
+
+# edit config
+# sudo nano /etc/frp/frpc.ini
